@@ -1,4 +1,3 @@
-# This code assumes that the .txt file is stored in the working directory.
 
 
 # Read in the data table
@@ -22,4 +21,6 @@ with(data2, hist(Global_active_power
                  , ylab = "Frequency"
                  , main = "Global Active Power"
                  , col = "red"))
+# Save the file
 dev.off()
+
